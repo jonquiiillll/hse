@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name=" author" content="Александра Павлова">
+    <meta name="keywords" content="">
+    <meta name=" description" content="проект по арт-практике">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(function() {
+$('.sidebar a').each(function() {
+$(this).on('click', function(e) {
+  e.preventDefault();
+  var scrollTo = $(this).attr('href');
+  var whitespace = scrollTo == '#s1' ? 70 : 30;
+  $('html,body').animate({
+    scrollTop: $(scrollTo).offset().top - whitespace
+  }, 1000);
+});
+});
+});
+</script>
+    <title>Золотое сечение</title>
+    <style media="screen">
+    /* body {
+      width: 1955px;
+      margin: 0;
+      background: white;
+      height: 4544px;
+      display: block;
+      position: relative;
+      width: 100%
+    } */
+    body {
+
+      width: 1280px;
+      height: 4244px;
+      color: black;
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+    }
+
+    /* body::before {
+      content: "";
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: url('images/4.jpg');
+      height: 100%;
+      display: block;
+      opacity: .2;
+    } */
+    html {
+      background: #bbb;
+      position: relative;
+      height: 100%;
+    }
+    section{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 80px;
+    }
+div .t {
+  position: absolute;
+  width: 1047px;
+  height: 286px;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 172px;
+  line-height: 234px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/1.png" alt="фон" width="1280" height="4244">
+<div class="top">Золотое</div>
+  <div class="bottom">Сечение</div>
+<div class="this">Это</div>
+<div class="this2">пропорциональное деление отрезка на неравные части, <br>
+при котором весь отрезок так относится к большей части, <br>
+как сама большая часть относится к меньшей.</div>
+<div class="numbers"></div>
+<div class="letters"></div>
+<div class="text">Впервые о «золотом сечении» упоминает древнегреческий математик Евклид около 300 лет <br> до нашей эры. Он дает определение «золотого сечения» и поручает нам взять отрезок линии и разделить его на два меньших сегмента так,
+что отношение всей линии (a + b) <br> к отрезку a будет таким же, <br> как отношение отрезка a к сегменту b.</div>
+<div class="text5">На самом деле, стороны «золотого прямоугольника» — это иррациональное значение 1,618034…, т.е. бесконечная десятичная дробь, не имеющая периода.</div>
+<div class="text3">Ряд Фибоначчи:<br>
+ 0, 1, 1, 2, 3, 5, 8, 13 и тд.</div>
+<div class="text4">«Золотое сечение» часто представляют как «Золотой прямоугольник». <br>
+Это прямоугольник с отношением длин сторон примерно 1,618:1. Он обладает <br> тем свойством, что если от него отрезать квадрат, то снова получится золотой прямоугольник меньшего размера.
+</div>
+<div class="text6">архитектура</div>
+<div class="why">зачем?</div>
+<div class="text7">Многие историки искусства находили пропорции, близкие <br> к золотому сечению, <br>в архитектурных
+шедеврах древности начиная с Египетских
+пирамид.
+Наиболее известным примером
+является Парфенон.
+<div class="text11">цельность композиции</div>
+<div class="text12">Долго художники следовали <br> этому закону интуитивно, <br>но после Леонардо да Винчи процесс создания живописного полотна
+ не обходится
+без решения геометрических задач.
+</div>
+</div>
+<div class="text8">дизайн</div>
+<div class="text13">Золотое сечение <br>
+в Триумфальной арке Септимия Севера в Риме</div>
+<div class="text10">Золотое сечение используется, чтобы создать
+привлекательный макет, гармонично расположить элементы дизайна, согласовать их размеры между собой, сделать красивые снимки,
+рисунки.
+</div>
+    </div>
+  <style media="screen">
+    .top {
+      position: absolute;
+width: 1047px;
+height: 286px;
+top: 429px;
+left: 290px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 172px;
+line-height: 234px;
+color: white;
+letter-spacing: -0.02em;
+    }
+    .bottom {
+      position: absolute;
+width: 925px;
+height: 381px;
+top: 505px;
+left: 291px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 280px;
+line-height: 381px;
+letter-spacing: -0.053em;
+color: #FFFFFF;
+
+    }
+  .this {
+    position: absolute;
+width: 272px;
+height: 164px;
+top: 800px;
+left: 75px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 150px;
+line-height: 204px;
+color: #FFFFFF;
+  }
+  .this2 {
+    position: absolute;
+width: 720px;
+height: 223px;
+
+font-family: Alegreya;
+font-style: italic;
+font-weight: 450px;
+font-size: 26px;
+line-height: 45px;
+top: 840px;
+left: 490px;
+color: #FFFFFF;
+
+  }
+.text {
+  position: absolute;
+width: 510px;
+height: 452px;
+top: 1250px;
+left: 60px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+
+color: #FFFFFF;
+}
+.text2 {
+  position: absolute;
+width: 558px;
+height: 181px;
+top: 1765px;
+left: 60px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: 900;
+font-size: 110px;
+line-height: 150px;
+
+color: #FFFFFF;
+}
+.text3 {
+  position: absolute;
+width: 558px;
+height: 126px;
+top: 1800px;
+left: 790px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 41.9832px;
+line-height: 57px;
+color: #FFFFFF;
+}
+.text4 {
+  position: absolute;
+width: 540px;
+height: 328px;
+top: 2700px;
+left: 200px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 41px;
+
+color: #FFFFFF;
+}
+.text5 {
+  position: absolute;
+width: 382px;
+height: 352px;
+top: 2700px;
+left: 750px;
+
+font-family: Alegreya;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 41px;
+color: #FFFFFF;
+}
+.why {
+  position: absolute;
+width: 631.3px;
+height: 301.48px;
+top: 3040px;
+left: 650px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 179.015px;
+line-height: 244px;
+
+color: #FFFFFF;
+}
+.text6 {
+  position: absolute;
+width: 836.38px;
+height: 212.52px;
+top: 3050px;
+left: 50px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+
+color: #FFFFFF;
+
+}
+.text7 {
+  position: absolute;
+width: 398px;
+height: 314px;
+top: 3150px;
+left: 40px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+.text8 {
+  position: absolute;
+width: 490.46px;
+height: 212.52px;
+top: 3400px;
+left: 800px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+
+color: #FFFFFF;
+}
+.text10 {
+  position: absolute;
+width: 398px;
+height: 210px;
+top: 3500px;
+left: 720px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+.text11 {
+  position: absolute;
+  width: 398px;
+  height: 210px;
+  top: 650px;
+  left: 720px;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+.text12 {
+  position: absolute;
+width: 398px;
+height: 210px;
+top: 760px;
+left: 680px;
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+color: #FFFFFF;
+
+}
+.text13 {
+  position: absolute;
+width: 275px;
+height: 180px;
+top: 3710px;
+left: 40px;
+font-family: Alegreya;
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+
+color: black;
+}
+  </style>
+  </body>
+</html>
